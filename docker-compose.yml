@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    annotation:
+        build: .
+        ports:
+            - '7006:5000'
